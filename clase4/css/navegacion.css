@@ -1,0 +1,19 @@
+a{
+    text-decoration: none; /* quitar subrayado */
+}
+
+header{
+    width: 900px;
+    margin: auto;
+    height: 140px;
+
+    background-color: #BFDFF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header img{
+        width: 64px;
+        height: 64px;
+    }

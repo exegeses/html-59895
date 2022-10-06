@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;600&display=swap');
+
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+main{
+    width: 800px;
+    margin: auto; /* centrar una caja en EJEX */
+}
+
+h1{
+    font-weight: 300;
+}
+
+#contenedor{
+    background-color: rgb(197, 246, 148);
+    height: 450px;
+
+    display: flex;
+
+    /* en el eje HORIZONTAL */
+    /* justify-content: start; /* predeterminado: a la izquierda */
+    /* justify-content: end; /* del lado derecho */
+    /* justify-content: center; /* en el centro */
+    justify-content: space-between;
+
+
+    /* en el eje VERTICAL */
+    /* align-items: start; /* predeterminado:  arriba */
+    /* align-items: end; /* debajo */
+    align-items: center; /* en el centro */
+
+}
+
+    #contenedor article{
+        width: 200px;
+        height: 200px;
+        border: 1px solid rgb(4, 44, 11);
+        background-color: rgb(5, 87, 20);;
+    }
