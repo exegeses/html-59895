@@ -5,3 +5,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* globales */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #707070;
+}
+    a{
+        text-decoration: none; /* quitar subrayado */
+    }
+
+
+/* header  */
+header{
+    width: 1100px;
+    margin: auto;   /* centrar la caja */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header a{
+        color: #707070;
+        font-weight: 600;
+    }
+
+    header img{
+        width: 60px;
+        vertical-align: middle;
+        margin-right: 16px;
+    }
+
+    header nav a{
+        padding: 12px;
+    }
