@@ -17,9 +17,13 @@ body{
     a{
         text-decoration: none; /* quitar subrayado */
     }
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+        color: #FFB968;
+    }
 
-
-/* header  */
+/*### header  ###*/
 header{
     width: 1100px;
     margin: auto;   /* centrar la caja */
@@ -41,4 +45,44 @@ header{
 
     header nav a{
         padding: 12px;
+    }
+
+/*### hero-banner ###*/
+#hero-banner{
+    height: 500px;
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -120px;
+    display: flex;
+}
+    #hero-banner div{
+        width: 1100px;
+        margin: auto;
+    }
+    #hero-banner div p{
+        width: 400px;
+        margin-top: 24px;
+    }
+
+/*### main ###*/
+main{
+    width: 1100px;
+    margin: auto;
+}
+
+    /* separador */
+    #separador{
+        height: 320px;
+        text-align: center;
+        padding-top: 98px;
+    }
+    #separador h2{
+        color: #FFB968;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    #separador p{
+        width: 600px;
+        margin: auto;
     }
