@@ -114,4 +114,42 @@ main{
         background-color: #E3B684;
     }
 
+/*### separador-2 ###*/    
+    #separador-2{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFB968;
+    }
+
+/*### historia ###*/    
+#historia{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    color: #fff;
+}
+    #historia article {
+        width: 339px;
+        background-color: #807871;
+    }
+    #historia h2{
+        margin-top: 18px;
+        margin-left: 36px;
+    }
+    #historia p{
+        margin: 12px 36px 24px 36px;
+    }
+    #historia img {
+        width: 339px;
+        height: 301px;
+    }
+
+
+/*### footer ###*/    
+footer{
+    height: 240px;
+    background-color: #807871;
+}    
 
