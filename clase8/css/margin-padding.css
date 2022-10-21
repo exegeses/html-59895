@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* globales */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: #3D4043;
+    color: #fff;
+}
+
+main{
+    width: 700px;
+    margin: 64px auto;
+}
+
+    #el-margin,
+    #el-padding
+    {
+        background-color: rgb(244, 251, 250);
+        height: 400px;
+        color: #707070;
+        margin-top: 32px;
+
+        /**/
+        padding-top: 32px;
+    }
+        #caja1{
+            background-color: rgb(161, 250, 168);
+            width: 150px;
+            height: 100px;
+            margin: 0px 0px 0px 32px;
+        }
+        #caja2{
+            background-color: rgb(250, 225, 161);
+            width: 150px;
+            height: 100px;
+            margin: 32px 0px 0px 32px;
+        }
+
+    #el-padding{
+        padding: 32px;
+    }
+
+        #caja3{
+            background-color: rgb(161, 250, 168);
+            width: 150px;
+            height: 100px;
+            padding: 12px;
+        }
+        #caja4{
+            background-color: rgb(250, 225, 161);
+            width: 150px;
+            height: 100px;
+        }

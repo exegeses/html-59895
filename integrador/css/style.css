@@ -94,6 +94,7 @@ main{
 }
     #promos h2{
         margin-bottom: 32px;
+        font-size: 32px;
     }
 
     #promo-1, #promo-2{
