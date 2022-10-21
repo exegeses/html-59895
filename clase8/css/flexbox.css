@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* globales */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: #3D4043;
+    color: #fff;
+
+    width: 900px;
+    margin: 32px auto;
+}
+
+h2{
+    margin: 16px 0px;
+}
+
+#horizontal, 
+#vertical, 
+#columna
+{
+    background-color: #fff;
+    color: #707070;
+    height: 400px;
+}
+
+    #horizontal article,
+    #vertical article,
+    #columna article
+    {
+        background-color: rgb(177, 249, 132);
+        width: 150px;
+        height: 100px;
+    }
+
+/* eje Horizontal */
+    #horizontal{
+        display: flex;
+        /* justify-content: start; /* a la izquierda */
+        /* justify-content: end; /* a la derecha */
+        /* justify-content: center; /* a la derecha */
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        justify-content: space-evenly;
+    }    
+
+/* eje vertical */
+    #vertical{
+        display: flex;
+        /* align-items: start; /* arriba */
+        /* align-items: end; /* debajo */
+        align-items: center;
+    }
+
+/* columna */
+#columna article
+    {
+        margin: auto;
+    }
