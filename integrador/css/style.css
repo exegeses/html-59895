@@ -147,6 +147,31 @@ main{
         height: 301px;
     }
 
+/*### contacto ###*/    
+#contacto{
+    height: 580px;
+    background-image: url(../imgs/bg-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -130px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+}
+    #contacto form{
+        width: 698px;
+        margin: auto;
+        padding: 14px 28px 20px 28px;
+        background-color: #fff;
+        border: #CECECE solid 1px;
+        border-radius: 12px;
+    }
+
+    #contacto input,
+    #contacto textarea
+    {
+        width: 100%;
+    }
+
 
 /*### footer ###*/    
 footer{
