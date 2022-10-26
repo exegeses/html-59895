@@ -170,6 +170,29 @@ main{
     #contacto textarea
     {
         width: 100%;
+        margin: 8px 0px 14px 0px;
+        padding: 4px 8px;
+        border: 1px solid #CECECE;
+        border-radius: 6px;
+        font-family: Raleway, sans-serif;
+    }
+    #contacto textarea
+    {
+        height: 80px;
+        resize: none;
+    }
+    #contacto button{
+        width: 200px;
+        padding: 4px 0px;
+        background-color: #F7BB74;
+        border: 1px solid #FA9E30;
+        border-radius: 6px;
+        font-family: Raleway, sans-serif;
+        cursor: pointer;
+        transition: 500ms;
+    }
+    #contacto button:hover {
+        background-color: #ffcf94;
     }
 
 
